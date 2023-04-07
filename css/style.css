@@ -1,0 +1,753 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bage1 {
+    background-image: url(../images/sobh4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.header{
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgb(0, 0, 0,0.7);
+    z-index: 10;
+}
+.bage1 , .bage2 , .bage3 , .bage4 , .bage5 ,.bage6 ,.bage7 , .bag10{
+    width: 100%;
+    height: 100vh;
+}
+.TEXT{
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50% );
+    text-align: center;
+}
+.H22{
+    font-size: 45px;
+}
+.B11{
+   font-size: 20px;
+}
+.B11{
+    padding-top: 10px;
+}
+.button{
+    border-radius: 10px;
+    font-size: 100px;
+    font-size: 100px;
+    padding: 350px 0 0 430px;
+    border-radius: none;
+}
+.b1 , .b2 {
+    height: 70px;
+    width: 200px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.list1 li {
+    list-style: none;
+    margin-left: 20px;
+    display: inline; 
+    margin-top: -5px;
+}
+.list1{
+    float: right;
+    margin: 12px 25px 0 0 ;
+}
+.list1 li a {
+    color: rgb(161, 158, 154);
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.img{
+    margin-left: 30px;
+}
+.Text1 {
+    font-size: 50px;
+    position: absolute;
+    margin: 270px 0 0 260px;
+    color: rgb(161, 158, 154);
+}
+.Text2 {
+    color: rgb(161, 158, 154);
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 330px;
+}
+.list1 li a:hover{
+    color: rgb(247, 251, 255);
+}
+.but1 , .but2 {
+    width: 210px;
+    height: 60px;
+    background-color: rgb(228, 224, 220);
+    color: rgb(59, 57, 57);
+    border-radius: 10px;
+    font-size: 35px;
+    position: absolute;
+    text-align: center;
+    border: 0;
+}
+.but1{
+    margin: 380px 0 0 680px;
+}
+.but2{
+    margin: 380px 0 0 430px;
+}
+.but1:hover , .but2:hover{
+    background-color: black;
+    color: white;
+}
+.D{
+    height:100vh;
+}
+.wel{
+font-size: 40px;
+text-align: center;
+margin-top: 100px;
+}
+.mas , .Mas{
+    width: 100px;
+    height: 5px;
+    background-color: gray;
+    margin:auto;
+}
+.Feat{
+    text-align: center;
+    font-size: 40px;
+}
+.picture1 , .picture2 , .picture3 , .picture4 , .picture5 , .picture6{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 90px 0 0 140px;
+    float: left;
+}
+.page3{
+    position: relative;
+}
+.picture1 , .picture2 , .picture3 , .picture4 , .picture5 , .picture6{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture1{
+    background-image: url(../images/sal1.jpeg);
+}
+.picture2{
+    background-image: url(../images/sal2.jpeg);
+}
+.picture3{
+    background-image: url(../images/sal3.jpeg);
+}
+.picture4{
+    background-image: url(../images/crs1.jpeg);
+}
+.picture5{
+    background-image: url(../images/crs2.jpeg);
+}
+.picture6{
+    background-image: url(../images/crs3.jpeg);
+}
+.over {
+    width: 300px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+    margin: -25px 0 0 -25px;
+}
+.over:hover{
+    opacity: 0.7;
+    position: relative;
+    transition: 1s;
+}
+.ovcontent{
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+}
+.pen , .ser{
+    width: 60px;
+    height: 60px; 
+    font-size: 30px;
+    color: white;
+    padding-top: 5px;
+}
+.ser{
+     background-color: rgb(17, 13, 255); 
+     padding: 15px 0 0 10px ;
+}
+.pen {
+    background-color: blue;
+    padding: 15px 0 0 5px;
+}
+.div1 , .div2 , .div3 , .div4 , .div5 , .div6 , .div7 , .div8 , .div9 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 90px 0 0 140px;
+    float: left;
+}
+.div4 , .div5 , .div6 , .div7 , .div8 , .div9{
+    height: 170px;
+}
+.i1 , .i2 , .i3 {
+    color: blue;
+    font-size: 35px;
+    padding: 20px 0 0 100px;
+}
+.Text3{
+    text-align: center;
+    padding-top: 20px;
+}
+.p1{
+    color: black;
+    padding: 20px 0 15px 0px;
+    text-align: center;
+    font-size: 17px;
+}
+.A1{
+    text-decoration: none;
+    color: black;
+    padding: 0 0 0 70px;
+}
+.div1 ,  .div2 , .div3 , .DIV{
+    position: relative;
+}
+.div1:after , .div2:after , .div3:after , .DIV:after {
+    content: "";
+    position: absolute;
+    width: 0 ;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(22, 17, 17);
+    opacity: 0;
+}
+.div1:hover::after , .div2:hover::after , .div3:hover::after ,.DIV:hover::after {
+ width: 100%;
+ height: 100%;
+ opacity: 0.8;
+ transition: 0.25s;
+}
+.Featured{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 0 0 545px;
+}
+.what{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 250px;
+}
+.div7 , .div8 , .div9{
+    margin-top: 30px;
+}
+.WEB{
+    display: inline;
+    padding: 5px 0 0 10px;
+}
+.i {
+    display: inline;
+    color: blue;
+    font-size: 30px;
+    padding: 10px 0 0 10px;
+    text-align: center;
+}
+.bar{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.ima1{
+    margin:-320px 0 0 850px;
+}
+.circles{
+    margin: 15px 0 0 1020px;
+    display: inline-block;
+}
+ .cir{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(5, 5, 5);
+    float: left;
+    margin-left: 9px;
+ }
+ .cir:hover{
+    background-color: gray;
+ }
+ .WHY{
+    font-size: 50px;
+    margin: 50px 0 0 100px;
+ }
+ .col{
+    width: 80px;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0 0 120px;
+}
+.line1{
+    font-size: 25px;
+    color: gray;
+    margin: 40px 0 0 120px;
+}
+.line2{
+    font-size: 25px;
+    color: gray;
+    margin: 10px 0 0 120px;
+}
+.I1 ,.I2 ,.I3 {
+    font-size: 20px;
+    color: blue;
+    margin-left: 30px;
+}
+.q1 ,.q2 ,.q3{
+    font-size: 20px;
+    color: gray;
+    display: inline;
+}
+.bage6{
+    background-image: url(../images/bage6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    left: 0;
+}
+.child{
+    position: absolute;
+    height: 25vh;
+    top: 20%;
+    left: 20%;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+ .I4 , .I5 , .I6 , .I7{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.bac2 , .bac1 , .bac3 , .bac4{
+    float: left;
+    margin-right: -60px;
+}
+.pp1 , .pp2 ,.pp3 ,.pp4{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: inline;
+}
+.bac2 , .bac3 , .bac4{
+    padding-left: 200px;
+    font-size:30px;
+    margin-top: 5px;
+}
+.bac3 , .bac4{
+    margin-top: -10px;
+}
+.pri{
+    font-size: 40px;
+    text-align: center;
+    margin-top:230px;
+    padding-top: 50px;
+}
+.ah{
+     width: 80px;
+     height: 5px;
+     background-color: gray;
+     margin:auto;
+     margin-top: 20px;
+}
+.bage7{
+  background-color: rgb(184, 176, 176);
+}
+.div12 , .div13 , .div14{
+    background-color: rgb(127, 132, 136);
+    height: 350px;
+    width: 300px;
+    margin: 70px 0 0 90px;
+    float: left;
+    border: solid 1px black;
+}
+.Basic{
+    text-align: center;
+    padding-top: 30px ;
+    font-size: 30px;
+}
+.cir4{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border:solid 1px black ;
+    margin: auto;
+    margin-top: 30px;
+}
+.mon{
+    font-size: 40px;
+    margin: -90px 0 0 130px;
+}
+.mont{
+    font-size:25px ;
+    text-align: center;
+    margin-top: -5px;
+}
+.gb , .email , .support {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(58, 55, 55);
+}
+.email , .support , .pru{
+    margin-top: 10px;
+}
+.pru{
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  margin-left: 105px;
+  background-color: black;
+  color: gray;
+  margin-top: 13px;
+}
+.div12:hover , .div13:hover , .div14:hover{
+    color: aliceblue;
+}
+.div12 , .div13 , .div14{
+    position: relative;
+}
+.div12:after , .div13:after , .div14:after {
+    content: "";
+    position: absolute;
+    width: 100% ;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(22, 17, 17);
+    opacity: 0;
+}
+.div12:hover::after , .div13:hover::after , .div14:hover::after {
+ width: 100%;
+ height: 100%;
+ opacity: 0.5;
+ transition: 0.25s;
+}
+.div12:hover .pru , .div13:hover .pru , .div14:hover .pru{
+    background-color: white;
+    color: black;
+}
+.bage8{
+    background-image: url(../images/sobh2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    left: 0;
+}
+.child{
+    position: absolute;
+    height: 25vh;
+    top: 20%;
+    left: 20%;
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+}
+.back5 , .back6{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-image: url(../images/crs2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back5 {
+    margin: -20px 0 0 50px;
+}
+.back6{
+    margin: -113px 0 0 500px;
+}
+.cr7{
+    margin: 20px 0 0 100px;
+    font-size: 35px;
+    color: rgb(129, 125, 119);
+    padding-top: 10px;
+}
+.cr{
+    margin-left: 84px;
+    width: 150px;
+    color: rgb(129, 125, 119);
+    font-size: 20px;
+}
+.team{
+    margin-top: 60px; 
+    text-align: center;
+}
+.OurTeam{
+    font-size: 50px;
+}
+.div20 , .div21 , .div22{
+background-color: rgb(73, 75, 77);
+height: 450px;
+width: 300px;
+margin: 70px 0 0 90px;
+float: left;
+ }
+.div201{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin: 25px 0 0 25px;
+    position: relative;
+}
+.mah{
+    background-image: url(../images/sal1.jpeg);
+}
+.yah{
+    background-image: url(../images/crs1.jpeg);
+}
+.ahm{
+    background-image: url(../images/sal3.jpeg);
+}
+.overed{
+    width: 250px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0);
+    opacity: 0;
+}
+.overed:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+    z-index: 1;
+    position: absolute;
+}
+.Teaminfo{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.Teampar{
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 20px;
+}
+.Teamlinks a i{
+    display:  block;
+    font-size: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.seq{
+    margin-left: auto;
+    width: 60px;
+    height: 150px;
+    background-color: rgb(15, 142, 173);
+}
+.FAC , .TWI , .LIN{
+    padding-top: 13px;
+}
+.div20 , .div21 , .div22{
+    position: relative;
+}
+.div20:after , .div21:after , .div22:after  {
+    content: "";
+    position: absolute;
+    width: 100% ;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(15, 15, 15);
+    opacity: 0;
+}
+.div20:hover::after , .div21:hover::after , .div22:hover::after {
+ width: 100%;
+ height: 100%;
+ opacity: 0.5;
+ transition: 1s;
+} 
+.Recent{
+    color: black;
+    text-align: center;
+    padding-top: 600px;
+    font-size: 50px;
+}
+.Recentinfo1 , .Recentinfo2 ,.Recentinfo3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin: 35px 0 0 130px;
+}
+.Recentinfo1{
+    background-image: url(../images/crs2.jpeg);
+}
+.Recentinfo2{
+    background-image: url(../images/sal3.jpeg);
+}
+.Recentinfo3{
+    background-image: url(../images/crs1.jpeg);
+}
+.teamhov{
+    width: 350px;
+    height: 600px;
+    margin: 35px 0 0 75px;
+    background-color: black;
+}
+.hov1 , .hov2 , .hov3 {
+    opacity: 0.7;
+    position: relative;
+}
+.hov2{
+    margin-left: 460px;
+}
+.hov3{
+    margin-left: 840px;
+}
+.Recentinfo{
+    height: 580px;
+    width: 350px;
+    margin: 30px 0 0 60px;
+    float: left;
+}
+.Recentinfo4 , .Recentinfo5 ,.Recentinfo6{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin: 0px 0 0 30px;
+}
+.Recentinfo4{
+    background-image: url(../images/crs2.jpeg);
+}
+.Recentinfo5{
+    background-image: url(../images/sal3.jpeg);
+}
+.Recentinfo6{
+    background-image: url(../images/crs1.jpeg);
+}
+.us{
+    font-size: 20px;
+}
+.Recenticon{
+    margin: 50px 0 0 30px;
+}
+.cl , .co{
+    padding-left: 15px;
+}
+.RecentH2 , .Recentp{
+    margin: 30px 0 0 30px;
+    font-size: 20px;
+}
+.Recentp{
+    color: rgb(100, 98, 98);
+}
+.ReadMore1{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+}
+.Recentinfo{
+    position: relative;
+}
+.Recentinfo:after{
+    content: "";
+    position: absolute;
+    width: 100% ;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(15, 15, 15);
+    opacity: 0;
+}
+.Recentinfo:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}
+.bage11{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(78, 76, 76);
+    margin-top: 650px;
+    position: relative;
+}
+.ima10{
+margin: 80px 0 0 530px;
+}
+.bageinfo , .bageinfo1 , .bageinfo2 , .bageinfo3 , .bageinfo4 , .bageinfo5{
+    width: 69px;
+    height: 69px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 35px 0 0 400px;
+    background-color: rgb(37, 159, 230);
+}
+.face , .tee , .you , .link2 ,.ins , .gog{
+   font-size: 30px;
+   margin: 19px 0 0 25px;
+}
+.tee , .you , .link2 ,.ins , .gog{
+    margin: 20px  0 0 20px;
+}
+.link2{
+    margin: 20px 0 0 23px;
+}
+.ins{
+    margin-left: 22px;
+}
+.bageinfo1 , .bageinfo2 , .bageinfo3 , .bageinfo4 , .bageinfo5{
+    margin-top: -70px;
+}
+.bageinfo1 {
+    margin-left: 475px;
+}
+.bageinfo2{
+    margin-left: 550px ;
+}
+.bageinfo3{
+    margin-left: 625px ;
+}
+.bageinfo4{
+    margin-left: 700px;
+}
+.bageinfo5{
+    margin-left: 775px;
+}
+.bageinfo:hover , .bageinfo1:hover , .bageinfo2:hover , .bageinfo3:hover , .bageinfo4:hover , .bageinfo5:hover{
+    background-color: blue;
+}
